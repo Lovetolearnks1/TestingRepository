@@ -25,13 +25,7 @@ public class STest {
 				//System.out.println(matcher.group(1));
 				if (matcher.group(1)!=null && matcher.group(1) != "" &&
                             !matcher.group(1).equals("null") && matcher.group(1).trim().length() > 0) {
-				//Pattern patternNew = Pattern.compile("\"(.*?)\"");
-				//Matcher matcherNew = patternNew.matcher(matcher.group(1));
-				//if(matcherNew.find()){
-				//	msgContentList.add(i,new HashMap<String, String>()); //v
-				//	msgContentList.get(i).put("name", matcherNew.group(1));
-				//	i++;
-				//}
+				
 					System.out.println(matcher.group(1));
 				}
 			}
